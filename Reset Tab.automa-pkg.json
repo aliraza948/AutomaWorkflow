@@ -1,0 +1,144 @@
+{
+  "asBlock": false,
+  "content": {
+    "content": [
+      {
+        "content": [
+          {
+            "text": "It'll reset your tab only remain first tab",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    ],
+    "type": "doc"
+  },
+  "createdAt": 1719373436444,
+  "data": {
+    "edges": [
+      {
+        "data": {},
+        "events": {},
+        "id": "vueflow__edge-1eux6711eux671-output-1-ufy8bs3ufy8bs3-input-1",
+        "markerEnd": "arrowclosed",
+        "selectable": true,
+        "source": "1eux671",
+        "sourceHandle": "1eux671-output-1",
+        "sourceX": 404.3074051486959,
+        "sourceY": 5.088439142396865,
+        "target": "ufy8bs3",
+        "targetHandle": "ufy8bs3-input-1",
+        "targetX": 425.4320717559324,
+        "targetY": -83.21310574963347,
+        "type": "custom",
+        "updatable": true
+      },
+      {
+        "data": {},
+        "events": {},
+        "id": "vueflow__edge-ufy8bs3ufy8bs3-output-1-1eux6711eux671-input-1",
+        "markerEnd": "arrowclosed",
+        "selectable": true,
+        "source": "ufy8bs3",
+        "sourceHandle": "ufy8bs3-output-1",
+        "sourceX": 657.4320717559324,
+        "sourceY": -83.21310574963347,
+        "target": "1eux671",
+        "targetHandle": "1eux671-input-1",
+        "targetX": 172.30740514869592,
+        "targetY": 5.088439142396865,
+        "type": "custom",
+        "updatable": true
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "activeTab": true,
+          "createIfNoMatch": false,
+          "description": "",
+          "disableBlock": false,
+          "findTabBy": "tab-index",
+          "matchPattern": "",
+          "onError": {
+            "dataToInsert": [],
+            "enable": true,
+            "insertData": false,
+            "retry": false,
+            "retryInterval": 2,
+            "retryTimes": 1,
+            "toDo": "fallback"
+          },
+          "settings": {
+            "blockTimeout": 0,
+            "debugMode": false
+          },
+          "tabIndex": 1,
+          "tabTitle": "",
+          "url": ""
+        },
+        "events": {},
+        "id": "1eux671",
+        "label": "switch-tab",
+        "position": {
+          "x": 192.30740514869592,
+          "y": -42.911560857603135
+        },
+        "type": "BlockBasic"
+      },
+      {
+        "data": {
+          "activeTab": true,
+          "allWindows": false,
+          "closeType": "tab",
+          "description": "",
+          "disableBlock": false,
+          "url": ""
+        },
+        "events": {},
+        "id": "ufy8bs3",
+        "label": "close-tab",
+        "position": {
+          "x": 445.4320717559324,
+          "y": -119.21310574963347
+        },
+        "type": "BlockBasic"
+      }
+    ],
+    "position": [
+      -54,
+      338
+    ],
+    "viewport": {
+      "x": -54,
+      "y": 338,
+      "zoom": 1
+    },
+    "zoom": 1
+  },
+  "description": "Close All Tabs and Remain Single",
+  "icon": "mdiPackageVariantClosed",
+  "inputs": [
+    {
+      "blockId": "1eux671",
+      "handleId": "1eux671-input-1",
+      "id": "f2sw495",
+      "name": ""
+    }
+  ],
+  "isExtenal": false,
+  "name": "Reset Tab",
+  "outputs": [
+    {
+      "blockId": "1eux671",
+      "handleId": "1eux671-output-fallback",
+      "id": "ajin24c",
+      "name": ""
+    }
+  ],
+  "settings": {
+    "asBlock": true
+  },
+  "variable": []
+}
